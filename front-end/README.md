@@ -1,6 +1,6 @@
 # GeoPostcodes' frontend technical test
 
-Using React, preferably in Typescript, create the following pages.
+Using React, preferably in Typescript, create the following pages: landing page and data explorer.
 
 You will find all the necessary images in the [images](./images) folder.
 
@@ -11,20 +11,19 @@ You will find all the necessary images in the [images](./images) folder.
 
 ## Landing page
 
-Reproduce the following landing page:
-[landing page](landing_page_screenshot.png)
+Reproduce the following landing page: [landing page](landing_page_screenshot.png).
 
-Focus on the layout, the elements does not need to be interactive except for the data explorer which should point the to the page described in the next section.
+Focus on the layout: the elements do not need to be interactive except for the data explorer which should point the to the page described in the next section.
 
 ## Data explorer
 
-Reproduce the following data explorer page:
-[data explorer page](data_explorer_screenshot.png)
+Reproduce the following data explorer page: [data explorer page](data_explorer_screenshot.png).
 
 The data for the list of countries comes from this file: [data.json](./data/countries.json).
-
-As you can see, the countries are grouped by continent. They must be sorted using the property ```continentCode```.
+You can access the raw file using this link: <https://raw.githubusercontent.com/GeoPostcodes/technical-test/main/front-end/data/countries.json>
 
 Your code must dynamically query this file to get the data in an asynchronous way.
 The content of the "data set" panel can be hardcoded.
 Each country points to a link ```/data-explorer/$url``` where the value of ```$url``` comes from the property ```url```.
+
+As you can see, the countries are grouped by continent. They must be sorted using the property ```continentCode```.
