@@ -1,6 +1,7 @@
 # GeoPostcodes' frontend technical test
 
 Using React, preferably in Typescript, create the following pages: landing page and data explorer.
+Note that it doesn't have to be perfect replica: if you want you can propose improvements.
 
 You will find all the necessary images in the [images](./images) folder.
 
